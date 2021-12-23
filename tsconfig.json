@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "noImplicitAny": true,
+    "outDir": "./dist/",
     "module": "es6",
     "target": "es5",
-    "allowJs": true
-  },
-  "files": ["src/index.ts"]
+    "lib": ["es2019", "DOM"],
+    "noImplicitAny": false,
+    "strict": true,
+  }
 }
