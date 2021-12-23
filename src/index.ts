@@ -10,7 +10,7 @@ const getQuestionBoxes = () => {
   return questionBoxes;
 };
 
-const getGameData = async (gameCode: string) => {
+const getGameData = async (gameCode: string | null) => {
     const response = await fetch(`https://quizlet.com/webapi/3.2/game-instances?filters={"gameCode":${gameCode},"isInProgress":true,"isDeleted":false}&perPage=500`)
     const data: GameInfo = await response.json();
 
