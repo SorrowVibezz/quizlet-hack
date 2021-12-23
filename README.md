@@ -13,4 +13,5 @@ Second, you could either save it as a bookmarklet ([how to make a bookmarklet](h
 https://user-images.githubusercontent.com/73669084/147203350-710be78d-2c97-421f-847c-729e54caee9d.mp4
 
 # how to make a bookmarklet
-https://user-images.githubusercontent.com/73669084/147204446-02ded28e-486e-4d4d-8be2-0b6579ea6d18.mp4
+
+Add `javascript:` before you paste the code into the bookmark
