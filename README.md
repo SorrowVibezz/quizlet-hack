@@ -1,6 +1,6 @@
 # quizlet-hack
 
-- Works in a live game only
+- Works in live games only
 - Auto answers (picks the right ones obviously)
 
 # tutorial
